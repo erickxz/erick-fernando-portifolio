@@ -64,7 +64,7 @@ export function ProjectsSection({ projects, onSelectProject }: ProjectsSectionPr
         {/* Left Arrow */}
         <button
           onClick={scrollLeft}
-          className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-10 w-12 h-12 md:w-14 md:h-14 rounded-full bg-card/90 backdrop-blur-sm border border-border shadow-xl flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background"
+          className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-40 w-12 h-12 md:w-14 md:h-14 rounded-full bg-card/90 backdrop-blur-sm border border-border shadow-xl flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background"
           aria-label="Projeto anterior"
         >
           <ChevronLeft className="w-6 h-6 md:w-7 md:h-7" />
@@ -73,15 +73,15 @@ export function ProjectsSection({ projects, onSelectProject }: ProjectsSectionPr
         {/* Right Arrow */}
         <button
           onClick={scrollRight}
-          className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-10 w-12 h-12 md:w-14 md:h-14 rounded-full bg-card/90 backdrop-blur-sm border border-border shadow-xl flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background"
+          className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-40 w-12 h-12 md:w-14 md:h-14 rounded-full bg-card/90 backdrop-blur-sm border border-border shadow-xl flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background"
           aria-label="Próximo projeto"
         >
           <ChevronRight className="w-6 h-6 md:w-7 md:h-7" />
         </button>
 
         {/* Gradient Overlays */}
-        <div className="absolute left-0 top-0 bottom-8 w-16 md:w-24 bg-gradient-to-r from-background to-transparent z-[5] pointer-events-none" />
-        <div className="absolute right-0 top-0 bottom-8 w-16 md:w-24 bg-gradient-to-l from-background to-transparent z-[5] pointer-events-none" />
+        <div className="absolute left-0 top-0 bottom-8 w-16 md:w-24 bg-gradient-to-r from-background to-transparent z-30 pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-8 w-16 md:w-24 bg-gradient-to-l from-background to-transparent z-30 pointer-events-none" />
 
         <div
           ref={containerRef}
