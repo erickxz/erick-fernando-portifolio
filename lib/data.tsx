@@ -161,7 +161,7 @@ export const navItems: NavItem[] = [
   { label: "Sobre", id: "about" },
   { label: "Experiência", id: "experience" },
   { label: "Stack", id: "stack" },
-  { label: "Projetos", id: "projects" },
   { label: "Formação", id: "education" },
+  { label: "Projetos", id: "projects" },
   { label: "Contato", id: "contact" },
 ]
