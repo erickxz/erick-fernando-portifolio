@@ -78,7 +78,7 @@ export function ContactSection({ onScrollToSection }: ContactSectionProps) {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="https://github.com/erickfernando"
+              href="https://github.com/erickxz"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 bg-card border border-border rounded-lg flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
